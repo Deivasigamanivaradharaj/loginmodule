@@ -1,0 +1,222 @@
+/* Login component */
+.logincontainer{
+    background: #fff;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.2);
+    border: 2px;
+    border-radius: 30px;
+    width: 400px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+   i{
+    position: absolute;
+      text-align: center;
+      line-height: 55px;
+      transition: 0.5s;
+      font-size: 1.1rem;
+      left: 15px;
+      color: #ccc;
+  }
+  
+#showpwd{
+  top: 52%;
+    left: 80%;
+    right: 20px;
+  }
+  .loginform{
+    display: flex;
+    flex-direction: column;
+  }
+  .loginform h1{
+    margin: 10px;
+    font-size: 2.5em;
+    text-align: center;
+    color: #4481eb;
+
+  }
+  .loginform h3{
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .logincontainer input{
+    background: rgba(255, 255, 255, 0.5);
+    text-align: start;
+    padding: 15px 20px;
+    margin: 10px 0px 20px 0px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+  }
+  .logincontainer input::placeholder{
+    color: #aaa;
+    font-weight: 500;
+  }
+  .logincontainer input:is(:focus){
+  border-bottom: 2px solid #5995fd;
+  }
+  .loginform p{
+    margin: 0px 0px; 
+    color: rgb(181, 0, 0);
+  }
+  .loginform a{
+    margin: 10px 0px; 
+  }
+  .loginform a:hover{
+    cursor: pointer;
+  }
+  .loginform button{
+    padding: 15px 0px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #4481eb, #04befe);
+    width: 50%;
+    align-self: center;
+    color: white;
+  }
+  .loginform button:hover{
+    background: linear-gradient(-90deg, #4481eb, #04befe);
+    color: white;
+  }
+
+  /* forgot password component */
+  .forgotpasswordcontainer{
+    background: rgb(255, 255, 255);
+    border: 2px;
+    border-radius: 30px;
+    width: 400px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+  }
+  .Header{
+    display: flex;
+    justify-content: center;
+  }
+  .forgotpasswordcontainer h1{
+    margin: 10px;
+    font-size: 2.5em;
+    text-align: center;
+    color: #4481eb;
+  }
+  .forgotpasswordcontainer input{
+    background: rgba(255, 255, 255, 0.5);
+    text-align: start;
+    padding: 15px 20px;
+    margin: 10px 0px 20px 0px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+  }
+  .forgotpasswordcontainer input::placeholder{
+    color: #aaa;
+    font-weight: 500;
+  }
+  .forgotpasswordcontainer input:is(:focus){
+  border-bottom: 2px solid #5995fd;
+  }
+  .forgotpasswordcontainer p{
+    margin: 0px 0px; 
+    color: rgb(181, 0, 0);
+  }
+  .forgotpasswordcontainer a{
+    margin: 10px 0px; 
+  }
+  .forgotpasswordcontainer a:hover{
+    cursor: pointer;
+  }
+  .forgotpasswordcontainer button{
+    padding: 15px 0px;
+    margin: 10px 0px;
+    border: none;
+    width: 50%;
+    align-self: center;
+    border-radius: 5px;
+    background: linear-gradient(-45deg, #4481eb, #04befe);
+    color: white;
+  }
+  .forgotpasswordcontainer button:hover{
+    background: linear-gradient(-90deg, #4481eb, #04befe);
+    color: white;
+  }
+
+  /* Create Password container */
+  
+  .createpasswordcontainer{
+    background: rgb(255, 255, 255);
+    border: 2px;
+    border-radius: 30px;
+    width: 400px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+  }
+  .createpasswordcontainer a{
+    margin: 24px 0px; 
+  }
+  .createpasswordcontainer a:hover{
+    cursor: pointer;
+  }
+  .createpasswordcontainer h1{
+    margin: 10px;
+    font-size: 2.3rem;
+    text-align: center;
+    color: #4481eb;
+  }
+  .createpasswordcontainer h3{
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .createpasswordcontainer input{
+    background: rgba(255, 255, 255, 0.5);
+    text-align: start;
+    padding: 15px 20px;
+    margin: 10px 0px 20px 0px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #ccc;
+  }
+  .createpasswordcontainer p{
+    margin: 10px 0px 20px 0px;
+    color: rgb(181, 0, 0);
+  }
+  /* .createpasswordcontainer a{
+    margin: 10px 0px 20px 0px;
+  }
+  .createpasswordcontainer a:hover{
+    cursor: pointer;
+  } */
+  .createpasswordcontainer button{
+    padding: 15px 0px;
+    margin: 10px 0px 20px 0px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(-90deg, #4481eb, #04befe);
+    color: white;
+  }
+  .createpasswordcontainer button:hover{
+    background: linear-gradient(-90deg, #4481eb, #04befe);
+    color: white;
+  }
